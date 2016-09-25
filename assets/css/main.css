@@ -24,10 +24,6 @@
 
 	body {
 		line-height: 1;
-		background: #141E30; /* fallback for old browsers */
-		background: -webkit-linear-gradient(to left, #141E30 , #243B55); /* Chrome 10-25, Safari 5.1-6 */
-		background: linear-gradient(to left, #141E30 , #243B55); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
-        
 	}
 
 	ol, ul {
@@ -751,9 +747,9 @@
 /* Basic */
 
 	body {
-		background-image: url("images/overlay.png"), url("images/bg.jpg");
-		background-repeat: repeat, no-repeat;
-		background-size: auto, 100% 100%;
+		background: #141E30; /* fallback for old browsers */
+		background: -webkit-linear-gradient(to left, #141E30 , #243B55); /* Chrome 10-25, Safari 5.1-6 */
+		background: linear-gradient(to left, #141E30 , #243B55); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
 		font-family: 'Source Sans Pro', sans-serif;
 		font-weight: 300;
 		color: #777777;

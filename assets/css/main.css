@@ -1377,6 +1377,7 @@
 						text-align: center;
 						line-height: 2.75em;
 						font-size: 1.5em;
+						opacity: 0.5;
 						z-index: 1;
 						-moz-transition: width .15s ease-in-out, padding-right .15s ease-in-out;
 						-webkit-transition: width .15s ease-in-out, padding-right .15s ease-in-out;
@@ -1398,6 +1399,7 @@
 					#me .pic:hover .arrow {
 						width: 3em;
 						padding-right: 0.25em;
+						opacity: 0.9;
 					}
 
 				#me header {

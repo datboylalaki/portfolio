@@ -815,6 +815,12 @@
 		margin-bottom: 2em;
 	}
 
+	p {
+		font-family: 'Droid Serif', serif;
+		font-weight: 400;
+		font-style: italic;
+	}
+
 /* Table */
 
 	table {
